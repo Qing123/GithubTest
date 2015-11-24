@@ -2,6 +2,7 @@ package com.example.siqing.githubtest;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
@@ -14,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView tv = new TextView(this);
         tv.setText("Hello GitHub");
+
+        Log.e("","");
     }
 
     @Override
