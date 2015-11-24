@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = new TextView(this);
         tv.setText("Hello GitHub");
 
-        Log.e("","");
+        Log.e("","123");
     }
 
     @Override
